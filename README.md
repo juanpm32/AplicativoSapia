@@ -1,6 +1,9 @@
-# AplicativoSapia
+# AplicativoSapia (CORPORACION SAPIA)
 
-(Imágenes con información referencial)
+_(Imágenes con información referencial)_
+
+_Desarrollo sin equipo_
+
 
 ![image](https://user-images.githubusercontent.com/14944400/116323771-58119100-a784-11eb-8c29-dd83cb2a1dfb.png)
 
@@ -16,52 +19,59 @@
 
 
 
-APLICATIVO SAPIA
+## APLICATIVO SAPIA
 
-MENUS
+### Dashboard
 
--Dashboard
+* Visualización de cantidad de usuarios
+* Visualización de tickets por usuario mediante filtro
+* Visualización de grafico de satisfacción con respecto a encuesta realizada al cliente por usuario
 
-*Visualización de cantidad de usuarios
-*Visualización de tickets por usuario mediante filtro
-*Visualización de grafico de satisfacción con respecto a encuesta realizada al cliente por usuario
+### Administración
 
--Administración
+* Administración de usuario
+* Importación de excel tickets
+* Administración Garantias de equipos
+* Administración de tiendas la cual se da servicio
+* Administración de inventario
+* Eliminación de ticket
 
---Administración de usuario
---Importación de excel tickets
---Administración Garantias de equipos
---Administración de tiendas la cual se da servicio
---Administración de inventario
---Eliminación de ticket
+### Encuesta
 
--Encuesta
+* Registro y edición de encuesta de satisfacción dada al cliente
+* Adjunto de imagen de la encuesta realizada a cliente
 
-*Registro y edición de encuesta de satisfacción dada al cliente
-*Adjunto de imagen de la encuesta realizada a cliente
+### Vacaciones
 
--Vacaciones
+* Visualizción de las fechas de vacaciones del personal
 
-*Visualizción de las fechas de vacaciones del personal
+### Provincia
 
--Provincia
+* Visualizción de ticket realizados en provincia por personal particular
+* Tabla de facturación de viaticos de personal en provincia
 
-*Visualizción de ticket realizados en provincia por personal particular
-*Tabla de facturación de viaticos de personal en provincia
+### SLA
 
--SLA
-
-*Total de encuestas
-*Indicador de satifaccion del servicio
-*Encuesta (Tiempo de respuesta)
-*Encuesta (Calidad de servicio)
-*Encuesta (Trato del personal)
-*Cantidad de ticket - soporte de tiendas
-*Restablecimiento de servicio
-*SLA atenciones provincia
+* Total de encuestas
+* Indicador de satifaccion del servicio
+* Encuesta (Tiempo de respuesta)
+* Encuesta (Calidad de servicio)
+* Encuesta (Trato del personal)
+* Cantidad de ticket - soporte de tiendas
+* Restablecimiento de servicio
+* SLA atenciones provincia
 
 (Para cada item se desarrolló con respecto a formula dada por el supervisor a cargo de proporcionar los requerimientos)
 
--Mantenimiento
+### Mantenimiento
 
-*Visualizacipon de pdf de inventario de los bienes patrimoniales deacuerdo a un formato oficial, y adjuntando imagenes de los bienes patrimoniales
+* Visualizacipon de pdf de inventario de los bienes patrimoniales deacuerdo a un formato oficial, y adjuntando imagenes de los bienes patrimoniales
+
+### TECNOLOGIA UTILIZADA
+
+```
+* PHP PURO (LIB: FPDF)
+* BOOTSTRAP 3.3.7 (PLANTILLA SIMPLE INVOICE MASTER)
+* JAVASCRIPT (LIB: GOOGLE CHART)
+* MYSQL SERVER
+```
